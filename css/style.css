@@ -104,6 +104,7 @@ article img{
     article img{
         width: 300px;
         margin: 30px 30px;
+        object-fit:contain;
     
     }
     h1{
