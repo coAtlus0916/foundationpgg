@@ -1,0 +1,114 @@
+@font-face { font-family:'electronicFont'; src: url("../font/DS-DIGIT.TTF"); }
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../img/background.GIF);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    text-align: center;
+    position: relative;
+    
+}
+header:hover #drink{
+    display: block;
+}
+article{
+    
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+#drink{
+    position:relative;
+    top: 250px;
+    font-size: 30px;
+    color: white;
+    display: none;
+    transition: 0.5s;
+}
+h1{
+    margin: 20px;
+    font-size: 70px;
+    color: #ffca7a;
+}
+h2{
+    clear: both;
+    font-size: 25px;
+}
+#money{
+    font-family: electronicFont;
+    font-size: 190px;
+    margin-top: 10px;
+    color:rgba(255, 0, 0, 0.8);
+}
+.box{
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    background-color: bisque;
+    text-decoration: none;
+}
+
+#box1{
+    background-image: url(../img/background.GIF);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    
+    
+}
+#box1 p{
+    font-family:'Courier New', Courier, monospace;
+    line-height: 200px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+
+#box2{
+    background-image: url(../img/img1.GIF);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    
+    
+}
+
+#box2 p{
+    font-family:'Courier New', Courier, monospace;
+    line-height: 200px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+article img{
+
+    max-height: 500px;
+    margin: 30px 30px;
+
+}
+
+@media screen and (max-width:787px){
+    .box{
+        width: 70%;
+    }
+    article img{
+        width: 400px;
+        margin: 30px 30px;
+    
+    }
+    h1{
+        margin: 20px;
+        font-size: 45px;
+        color: #ffca7a;
+    }
+}
