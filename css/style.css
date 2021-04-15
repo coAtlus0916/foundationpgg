@@ -32,6 +32,17 @@ article{
     display: none;
     transition: 0.5s;
 }
+#home-a{
+    text-decoration: none;
+}
+#home{
+    position:relative;
+    top: 250px;
+    font-size: 30px;
+    color: white;
+    transition: 0.5s;
+}
+
 h1{
     margin: 20px;
     font-size: 70px;
@@ -86,7 +97,8 @@ h2{
     line-height: 200px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
+    text-shadow: 0 0px 20px black;
     
 }
 
@@ -104,7 +116,7 @@ article img{
     article img{
         width: 300px;
         margin: 30px 30px;
-        object-fit:contain;
+        object-fit: contain;
     
     }
     h1{
